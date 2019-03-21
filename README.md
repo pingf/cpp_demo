@@ -24,3 +24,11 @@
 ## tag "multi" 版本
 - 将仓库checkout到multi版本，注意这个版本中程序稍微变化了一些，引入了多文件的demo，同时cmake的配置也做了一些修改
 - 因为所有的配置都已经做好了，所以直接按照上面的构建镜像并执行即可
+
+## tag "test" 版本
+- 将仓库checkout到test版本，测试使用的是catch2，具体的修改请参考源码
+- 构建镜像如同前面所述
+- 运行主程序 `docker run --rm -it alpcpp-demo`
+- 运行正确的测试 `docker run --rm -it --entrypoint "/opt/hello-daocloud/bin/test-factorial" alpcpp-demo`
+- 运行错误的测试 `docker run --rm -it --entrypoint "/opt/hello-daocloud/bin/test-factorial-fail" alpcpp-demo`
+
