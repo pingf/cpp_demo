@@ -1,3 +1,0 @@
-/home/dameng/data/repo/daocloud/cpp_demo/CMakeFiles/rebuild_cache.dir
-/home/dameng/data/repo/daocloud/cpp_demo/CMakeFiles/hello-daocloud.dir
-/home/dameng/data/repo/daocloud/cpp_demo/CMakeFiles/edit_cache.dir
