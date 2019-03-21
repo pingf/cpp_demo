@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/hello-daocloud.dir/hello-daocloud.cpp.o  -o bin/hello-daocloud 
