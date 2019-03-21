@@ -20,3 +20,7 @@
 - 如果项目中有源于其它机器或repo中已经生成过的makefile相关配置，请删除，`rm -rf ./bin ./CMakeFiles CMakeCache.txt cmake_install.cmake Makefile`
 - 构建镜像 `docker build -f ./cpp.Dockerfile . -t alpcpp-demo`， 注意此镜像的基础镜像为`mergeforward/alpdev`, 请确保使用时可以从docker hub或其它地方拉取到该镜像
 - 执行 `docker run --rm -it alpcpp-demo`
+
+## tag "multi" 版本
+- 将仓库checkout到multi版本，注意这个版本中程序稍微变化了一些，引入了多文件的demo，同时cmake的配置也做了一些修改
+- 因为所有的配置都已经做好了，所以直接按照上面的构建镜像并执行即可
