@@ -11,6 +11,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY bin)
 set(SOURCE src/main.cpp src/factorial.cpp)
 add_executable(${PROJECT_NAME} ${SOURCE})
 
+enable_testing()
 
 add_executable(test-factorial tests/test_factorial.cpp src/factorial.cpp)
 add_test(
